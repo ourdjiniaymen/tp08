@@ -99,5 +99,6 @@ public class MatrixMathematics {
 		if(determinant(matrix)!=0){
 		return (transpose(cofactor(matrix)).multiplyByConstant(1.0/determinant(matrix)));
 		}
+		return (transpose(cofactor(matrix)).multiplyByConstant(1.0));
 	}
 }
